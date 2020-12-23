@@ -5,8 +5,10 @@
 //  Created by SangDo on 2020/09/06.
 //  Copyright © 2020 SangDo. All rights reserved.
 //
-//test1
+//test1 브랜치
 //test2
+
+
 import UIKit
 
 @UIApplicationMain
