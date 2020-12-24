@@ -28,3 +28,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 //tet2
+//내 맥
