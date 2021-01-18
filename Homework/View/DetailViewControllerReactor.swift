@@ -10,7 +10,7 @@ import ReactorKit
 import RxSwift
 //test
 
-
+//maintest
 class DetailViewControllerReactor: Reactor {
     
     
