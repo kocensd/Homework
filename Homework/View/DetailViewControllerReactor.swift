@@ -9,6 +9,8 @@
 import ReactorKit
 import RxSwift
 //test
+
+
 class DetailViewControllerReactor: Reactor {
     
     enum Action {
