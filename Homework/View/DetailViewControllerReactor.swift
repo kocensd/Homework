@@ -13,6 +13,7 @@ import RxSwift
 
 class DetailViewControllerReactor: Reactor {
     
+    
     enum Action {
         case move
     }
