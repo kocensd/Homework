@@ -8,7 +8,7 @@
 
 import UIKit
 import SDWebImage
-
+//회사맥 테스트1
 class ListTableViewCell: UITableViewCell {
     @IBOutlet weak var typeLabel: UILabel!
     @IBOutlet weak var typeNameLabel: UILabel!
