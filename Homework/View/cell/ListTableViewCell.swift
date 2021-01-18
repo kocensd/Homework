@@ -46,6 +46,7 @@ class ListTableViewCell: UITableViewCell {
         self.selectedView.isHidden = true
     }
 }
+//
 //회사맥2
 //내꺼맥 테스트1
 //회사맥1
