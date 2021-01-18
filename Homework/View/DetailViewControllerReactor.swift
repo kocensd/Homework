@@ -10,7 +10,11 @@ import ReactorKit
 import RxSwift
 //test
 
+<<<<<<< HEAD
 //searchTest
+=======
+//maintest
+>>>>>>> feature/mainTest
 class DetailViewControllerReactor: Reactor {
     
     
