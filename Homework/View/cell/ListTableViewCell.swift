@@ -45,6 +45,7 @@ class ListTableViewCell: UITableViewCell {
         self.thumImageView.image = nil
         self.selectedView.isHidden = true
     }
+    
 }
 //test
 
