@@ -36,4 +36,8 @@ class WebViewController: UIViewController {
 //test2
 //회사맥 테스트1
 //test1
+<<<<<<< HEAD
 //test3
+=======
+//test4
+>>>>>>> feature/searchTest
