@@ -5,8 +5,13 @@
 //  Created by SangDo on 2020/09/09.
 //  Copyright © 2020 SangDo. All rights reserved.
 //
+<<<<<<< HEAD
 //내꺼 맥 테스트
 //내꺼 맥 테스트1
+//test
+=======
+
+>>>>>>> feature/searchTest
 import UIKit
 import WebKit
 
@@ -36,8 +41,4 @@ class WebViewController: UIViewController {
 //test2
 //회사맥 테스트1
 //test1
-<<<<<<< HEAD
 //test3
-=======
-//test2
->>>>>>> feature/searchTest
