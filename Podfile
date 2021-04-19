@@ -11,6 +11,9 @@ target 'Homework' do
   pod 'Alamofire'
   pod 'SDWebImage'
   pod 'RealmSwift'
+  pod 'KakaoSDKCommon'
+  pod 'KakaoSDKAuth'
+  pod 'KakaoSDKUser'
 
   # Pods for Homework
 

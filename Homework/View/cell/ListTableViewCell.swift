@@ -47,5 +47,3 @@ class ListTableViewCell: UITableViewCell {
     }
     
 }
-
-

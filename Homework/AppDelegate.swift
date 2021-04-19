@@ -10,6 +10,8 @@
 //test3
 
 import UIKit
+import KakaoSDKCommon
+import KakaoSDKAuth
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,12 +20,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        KakaoSDKCommon.initSDK(appKey: "b87ecfa105e5b418df6dee5fb15013e7")
+        
         
         let navigationController = self.window?.rootViewController as! UINavigationController
         let viewController = navigationController.viewControllers.first as! ViewController
         viewController.reactor = ViewControllerReactor(service: Service())
         
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        if (AuthApi.isKakaoTalkLoginUrl(url)) {
+            return AuthController.handleOpenUrl(url: url)
+        }
+        return false
     }
 }
 

@@ -11,6 +11,8 @@ import Alamofire
 import ReactorKit
 import RxSwift
 import RxCocoa
+import KakaoSDKAuth
+import KakaoSDKUser
 
 class ViewController: UIViewController, StoryboardView {
     
@@ -37,10 +39,32 @@ class ViewController: UIViewController, StoryboardView {
         super.viewDidLoad()
 //        DbProvider.shared.delete()
         tableView.prefetchDataSource = self
+        UIColor.pink
     }
     
     deinit {
         print("ViewControllerDeInit")
+    }
+    @IBAction func clickKakaoLogin(_ sender: Any) {
+        AuthApi.shared.loginWithKakaoAccount { (oauthToken, error) in
+            if let error = error {
+                print(error)
+            } else {
+                print("loginSuccess")
+                self.getUserData()
+            }
+            
+        }
+    }
+    
+    func getUserData() {
+        UserApi.shared.me() { (user, error) in
+            if let error = error {
+                print("error\(error)")
+            } else {
+                print("user: \(user)")
+            }
+        }
     }
     
     func bind(reactor: ViewControllerReactor) {

@@ -1,5 +1,12 @@
 PODS:
   - Alamofire (5.1.0)
+  - KakaoSDKAuth (2.2.0):
+    - KakaoSDKCommon (= 2.2.0)
+  - KakaoSDKCommon (2.2.0):
+    - Alamofire (~> 5.1)
+  - KakaoSDKUser (2.2.0):
+    - KakaoSDKAuth (= 2.2.0)
+    - KakaoSDKCommon (= 2.2.0)
   - ReactorKit (2.0.1):
     - RxSwift (~> 5.0)
   - Realm (5.0.0):
@@ -28,6 +35,9 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - KakaoSDKAuth
+  - KakaoSDKCommon
+  - KakaoSDKUser
   - ReactorKit
   - RealmSwift
   - RxCocoa
@@ -40,6 +50,9 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKUser
     - ReactorKit
     - Realm
     - RealmSwift
@@ -53,6 +66,9 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  KakaoSDKAuth: a6fa63eb1a6a4e03de55d87da597a2976aad9cbf
+  KakaoSDKCommon: 90adb38b946ff42f26d70aadb67e679f79fe139c
+  KakaoSDKUser: b5ddfcdaf4adce40f172cafc9d4864d1a8b4f938
   ReactorKit: a63c5e11e0fd32d59d672e54178b0ed2876b764b
   Realm: 76066d333de26f97e9caedaa85ee3ff4a62ca265
   RealmSwift: c1bdff09b422569dc6881410d9ccf712bcdb79b0
@@ -64,6 +80,6 @@ SPEC CHECKSUMS:
   RxTest: 711632d5644dffbeb62c936a521b5b008a1e1faa
   SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
 
-PODFILE CHECKSUM: f4b7a08814a8230bc10f748589b6af8db2ae2448
+PODFILE CHECKSUM: 373e6f390e61bf7ae7afa05b68bb67e4d9264e95
 
 COCOAPODS: 1.8.4
