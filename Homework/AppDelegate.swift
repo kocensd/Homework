@@ -7,8 +7,8 @@
 //
 //test1 브랜치
 //test2
-//회사맥
-//회사맥2
+//test3
+//회사맥 mainTest 브랜치
 import UIKit
 
 @UIApplicationMain
@@ -23,13 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let viewController = navigationController.viewControllers.first as! ViewController
         viewController.reactor = ViewControllerReactor(service: Service())
         
+        
         return true
+        
     }
 }
 
-//tet2
-//내 맥
-//내 맥 테스트2
-//내 맥 테스트3
-//내맥 테스트4
-//내맥 searchTest 브랜치
+
