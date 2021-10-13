@@ -24,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         viewController.reactor = ViewControllerReactor(service: Service())
         
         return true
+        
     }
 }
 
