@@ -23,7 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let viewController = navigationController.viewControllers.first as! ViewController
         viewController.reactor = ViewControllerReactor(service: Service())
         
+        
         return true
+        
     }
 }
+
 
