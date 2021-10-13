@@ -8,7 +8,7 @@
 
 import ReactorKit
 import RxSwift
-
+//회사맥
 class DetailViewControllerReactor: Reactor {
     
     enum Action {
