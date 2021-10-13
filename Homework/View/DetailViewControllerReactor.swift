@@ -8,7 +8,7 @@
 // 회사맥1
 import ReactorKit
 import RxSwift
-//회사맥
+//회사맥 , 내꺼
 class DetailViewControllerReactor: Reactor {
     
     enum Action {
