@@ -5,7 +5,6 @@
 //  Created by SangDo on 2020/09/08.
 //  Copyright © 2020 SangDo. All rights reserved.
 //
-// 회사맥1
 import ReactorKit
 import RxSwift
 //회사맥 , 내꺼
